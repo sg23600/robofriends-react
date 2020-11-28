@@ -4,10 +4,10 @@ import "./index.css"
 import reportWebVitals from "./reportWebVitals"
 import "tachyons"
 import Card from "./Card"
-import CardList from "./CardList"
+import App from "./App"
 import { robots } from "./robots"
 ReactDOM.render(
-  <CardList robots={robots} />,
+  <App />,
 
   document.getElementById("root")
 )
